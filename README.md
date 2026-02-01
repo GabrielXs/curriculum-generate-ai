@@ -35,6 +35,7 @@ Siga os passos abaixo para rodar o projeto em sua máquina:
    git clone [https://github.com/seu-usuario/tailor-cv.git](https://github.com/seu-usuario/tailor-cv.git)
    cd tailor-cv
 ```
+
 Instale as dependências:
 ```Bash
 npm install
@@ -43,13 +44,13 @@ npm install
 Configure as variáveis de ambiente: Crie um arquivo .env.local na raiz do projeto e adicione sua chave do Groq:
 ```
 GROQ_API_KEY=sua_chave_aqui
-
+```
 Inicie o servidor de desenvolvimento:
 
 ```Bash
     npm run dev
-```
     Acesse http://localhost:3000 para ver o resultado.
+```
 
 🧠 Arquitetura de Prompt
 
